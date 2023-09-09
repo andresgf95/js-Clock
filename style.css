@@ -19,6 +19,7 @@ body {
     font-weight: bold;
     text-shadow: 0 1px 10px #ccc;
     font-family: Dosis, sans-serif;
+    border: solid red;
 }
   
 .separator {
