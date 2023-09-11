@@ -1,7 +1,15 @@
-body {
-    font-family: sans-serif;
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+
+}
+
+body {
+display: flex;
+justify-content: center;
+min-height: 100vh;
 }
   
 #clock {
@@ -19,7 +27,6 @@ body {
     font-weight: bold;
     text-shadow: 0 1px 10px #ccc;
     font-family: Dosis, sans-serif;
-    border: solid red;
 }
   
 .separator {
@@ -32,6 +39,6 @@ body {
 
 @media (max-width: 480px) {
     .hours, .minutes, .seconds {
-      font-size: 20px;
+      font-size: 3rem;
     }
   }
